@@ -1,5 +1,7 @@
 # Flask Telegram Notification Service
 
+Based on https://github.com/dev-fatal/queue-notify
+
 This project is a Flask-based web service designed to integrate with a Telegram bot. It provides two endpoints to register a chat based on a specific identifier and to notify that chat when required. This Dockerized application now uses the PyPy runtime to leverage JIT optimizations for improved performance.
 
 ---
